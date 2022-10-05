@@ -22,11 +22,6 @@ service Query {
 		option (google.api.http).get = "/blog/blog/posts";
 	}
 
-// Queries a list of Posts items.
-	rpc Posts(QueryPostsRequest) returns (QueryPostsResponse) {
-		option (google.api.http).get = "/blog/blog/posts";
-	}
-
 // this line is used by starport scaffolding # 2
 }
 
